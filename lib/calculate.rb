@@ -1,0 +1,7 @@
+require 'calculate/calculator'
+require 'calculate/application'
+require 'calculate/parser'
+require 'calculate/add_command'
+require 'calculate/sub_command'
+require 'calculate/mul_command'
+require 'calculate/sqrt_command'
