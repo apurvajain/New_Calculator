@@ -19,8 +19,33 @@ describe 'Calculator' do
   it 'checks division' do
    expect(calculator1.div(1)).to eq(1)
   end
+
+  it 'checks square ' do
+   expect(calculator1.sqr).to eq(1)
+  end
+
   it 'checks square root' do
    expect(calculator1.sqrt).to eq(1)
+  end
+
+  it 'checks cube ' do
+   expect(calculator1.cube).to eq(1)
+  end
+
+  it 'checks cube root' do
+   expect(calculator1.cubert).to eq(1)
+  end
+
+  it 'checks abs' do
+   expect(calculator1.abs).to eq(1)
+  end
+
+  it 'checks neg' do
+   expect(calculator1.neg).to eq(-1)
+  end
+
+  it 'checks cancel' do
+   expect(calculator1.cancel).to eq(0)
   end
 
 end
